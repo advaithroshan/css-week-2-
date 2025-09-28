@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center; 
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+nav ul {
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.page {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 4px;
+}
+nav {
+    display: inline-block;
+    width: 80%;
+}
+nav + img { 
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+footer {
+    background-color: grey;
+}
+div {
+    display: grid;
+    grid-template-columns: 40% 40%;
+     justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+div img {
+    width: 100%;
+}
+.page3 {
+    display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      row-gap: 10px;
+      column-gap: 10px;
+}
+.skip-link {
+    font-size: xx-large;
+    text-decoration: underline;
+}
